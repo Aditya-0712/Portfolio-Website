@@ -1,0 +1,143 @@
+*{display:flex; text-decoration: none; word-wrap: break-word; -webkit-tap-highlight-color: transparent;}
+
+head{display:none}
+
+body{
+    width:100%;
+    margin:0;
+    font-size:0;
+    flex-direction: column;
+    background-color: #0f172a;
+    margin-bottom: 26.7vw;
+}
+
+.title{
+    margin:16vw auto 0 8vw;
+    font: 9.35vw ubuntu-bold;
+    letter-spacing: 0.267vw;
+    color:white;
+}
+
+.heading, .about{
+    margin:2.67vw auto 0 8vw;
+    font: 4.27vw ubuntu-reg;
+    letter-spacing: 0.267vw;
+    color:white;
+}
+
+.desc{
+    margin:5.33vw auto 0 8vw;
+    font:3.73vw ubuntu-reg;
+    letter-spacing: 0.267vw;
+    color:#92a1b6;
+    max-width: 80vw;
+    line-height: 5.33vw;
+}
+
+.socials{
+    margin:8vw auto 0 8vw;
+}
+
+.socials a{
+    margin:auto 6.67vw auto 0;
+}
+
+.socials a img{
+    height:6.67vw;
+    width: 6.67vw;
+}
+
+.pfp{
+    margin:8vw auto 0 13.33vw;
+    height: 66.67vw;
+    width: auto;
+    box-shadow: rgba(240, 46, 170, .4) -1.33vw 1.33vw, rgba(240, 46, 170, .3) -2.67vw 2.67vw, rgba(240, 46, 170, .2) -4vw 4vw, rgba(240, 46, 170, .1) -5.33vw 5.33vw, rgba(240, 46, 170, .05) -6.67vw 6.67vw;
+}
+
+.about{
+    letter-spacing: 0.8vw;
+    margin-top: 32vw;
+}
+
+.me{
+    margin:8vw auto 0 8vw;
+    font: 4vw ubuntu-reg;
+    max-width: 85%;
+    color:#92a1b6;
+    letter-spacing: 0.267vw;
+    line-height: 5.33vw;
+}
+
+.exp{
+    flex-direction: column;
+    margin:8vw auto 0 8vw;
+}
+
+.date{
+    margin:0 auto 0 0;
+    font:3.47vw ubuntu-med;
+    color:#92a1b682;
+    letter-spacing: 0.267vw;
+}
+
+.pos{
+    margin:2.67vw auto 0 0;
+    font: 4.53vw ubuntu-med;
+    color:white;
+    letter-spacing: 0.267vw;
+    max-width: 90%;
+    line-height: 6.67vw;
+}
+
+.details{
+    margin:2.67vw auto 0 0;
+    font:3.47vw ubuntu-reg;
+    color:#92a1b6;
+    letter-spacing: 0.267vw;
+    line-height: 5.33vw;
+    max-width: 85vw;
+}
+
+.labels{
+    flex-wrap: wrap;
+    margin:5.33vw auto 0 0;
+    gap:2.67vw;
+    max-width: 90%;
+}
+
+.labels p{
+    margin:auto 0;
+    font:3.47vw ubuntu-reg;
+    color:rgb(94 234 212);
+    padding:1.33vw 2.67vw;
+    background-color: rgba(94, 234, 212, 0.1);
+    border-radius: 50px;
+}
+
+.exp img{
+    margin:4vw auto 0 0;
+    width:80vw;
+    height:auto;
+}
+
+.view{
+    margin:1.87vw auto 8vw 0;
+    padding:1.87vw 6.67vw;
+    border-radius: 0 50px 50px 50px;
+    background-color: blueviolet;
+}
+
+.view p{
+    margin:auto 0 0 0;
+    font:4vw ubuntu-reg;
+    color:white;
+    letter-spacing: 0.267vw;
+}
+
+.view img{
+    height:4vw;
+    width:4vw;
+    margin:auto 0 auto 4vw;
+    position:relative;
+    bottom: 0.267vw;
+}
