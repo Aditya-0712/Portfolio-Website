@@ -13,21 +13,21 @@ body{
 
 .title{
     margin:16vw auto 0 8vw;
-    font: 9.35vw ubuntu-bold;
+    font: 9.35vw inter-bold;
     letter-spacing: 0.267vw;
     color:white;
 }
 
 .heading, .about{
     margin:2.67vw auto 0 8vw;
-    font: 4.27vw ubuntu-reg;
+    font: 4.27vw inter-reg;
     letter-spacing: 0.267vw;
     color:white;
 }
 
 .desc{
     margin:5.33vw auto 0 8vw;
-    font:3.73vw ubuntu-reg;
+    font:3.73vw inter-reg;
     letter-spacing: 0.267vw;
     color:#92a1b6;
     max-width: 80vw;
@@ -61,7 +61,7 @@ body{
 
 .me{
     margin:8vw auto 0 8vw;
-    font: 4vw ubuntu-reg;
+    font: 4vw inter-reg;
     max-width: 85%;
     color:#92a1b6;
     letter-spacing: 0.267vw;
@@ -75,14 +75,14 @@ body{
 
 .date{
     margin:0 auto 0 0;
-    font:3.47vw ubuntu-med;
+    font:3.47vw inter-med;
     color:#92a1b682;
     letter-spacing: 0.267vw;
 }
 
 .pos{
     margin:2.67vw auto 0 0;
-    font: 4.53vw ubuntu-med;
+    font: 4.53vw inter-med;
     color:white;
     letter-spacing: 0.267vw;
     max-width: 90%;
@@ -91,7 +91,7 @@ body{
 
 .details{
     margin:2.67vw auto 0 0;
-    font:3.47vw ubuntu-reg;
+    font:3.47vw inter-reg;
     color:#92a1b6;
     letter-spacing: 0.267vw;
     line-height: 5.33vw;
@@ -107,7 +107,7 @@ body{
 
 .labels p{
     margin:auto 0;
-    font:3.47vw ubuntu-reg;
+    font:3.47vw inter-reg;
     color:rgb(94 234 212);
     padding:1.33vw 2.67vw;
     background-color: rgba(94, 234, 212, 0.1);
@@ -129,7 +129,7 @@ body{
 
 .view p{
     margin:auto 0 0 0;
-    font:4vw ubuntu-reg;
+    font:4vw inter-reg;
     color:white;
     letter-spacing: 0.267vw;
 }
