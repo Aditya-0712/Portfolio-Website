@@ -20,13 +20,13 @@ body{
     display: block;
     position: fixed;
     width:100%;
-    padding:20px 0 20px 30px;
+    padding:5.333vw 0 5.333vw 8vw;
     font:4.27vw inter-reg;
     letter-spacing: 0.8vw;
     color:white;
     background-color: #0f172abf;
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(1.067vw);
+    backdrop-filter: blur(1.067vw);
     opacity: 0;
 }
 
