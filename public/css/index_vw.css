@@ -245,7 +245,10 @@ body{
         font:1.35vw inter-reg;
         letter-spacing: 0.12vw;
         padding:0.79vw 2.37vw;
-        transition: 0.2s;
+    }
+
+    .resume:hover{
+        outline: 0.158vw white solid;
     }
     
     .section{
@@ -281,6 +284,11 @@ body{
     
     .socials a{
         margin:auto 2.37vw auto 0;
+    }
+
+    .socials a:hover{
+        transform: translateY(-0.396vw);
+        transition: 0.15s;
     }
     
     .socials a img{
