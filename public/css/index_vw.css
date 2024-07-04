@@ -15,6 +15,11 @@ body{
     background-image: radial-gradient(circle at 74.2% 50.9%, #15254c 5.2%, #0f172a 75.3%);
 }
 
+.mobile{
+    width:100%;
+    flex-direction: column;
+}
+
 .topbar{
     margin:0;
     display: block;
@@ -188,4 +193,107 @@ body{
     -webkit-user-select: none;
     touch-action: manipulation;
     white-space: nowrap;
+}
+
+
+@media screen and (min-width:800px){
+    .mobile{
+        display:none;
+    }
+
+    .pc{
+        width:100%;
+    }
+
+    .left{
+        width:50%;
+        height:100%;
+        flex-direction: column;
+        position: fixed;
+    }
+
+    .pc_title{
+        margin:100px auto 0 100px;
+        font: 50px inter-bold;
+        color:white;
+        letter-spacing: 1px;
+    }
+
+    .pc_heading{
+        margin:10px auto 0 100px;
+        font:19px inter-med;
+        color:white;
+        letter-spacing: 1px;
+    }
+
+    .pc_desc{
+        margin:10px auto 0 100px;
+        font: 13px inter-reg;
+        letter-spacing: 1px;
+        color:#92a1b6;
+        max-width: 60%;
+        line-height: 20px;
+    }
+
+    .resume{
+        margin:30px auto 0 100px;
+        font:17px inter-reg;
+        letter-spacing: 1.5px;
+        padding:10px 30px;
+        transition: 0.2s;
+    }
+
+    .section{
+        margin:40px auto 0 100px;
+        flex-direction: column;
+    }
+
+    .section div{
+        margin:0 auto 15px 0;
+        cursor: pointer;
+    }
+
+    .section span{
+        margin:auto 15px auto 0;
+        width:30px;
+        height: 1px;
+        border-radius: 50px;
+        background-color:#92a1b6;
+    }
+
+    .section p{
+        margin:auto;
+        font: 13px inter-med;
+        color:#92a1b6;
+        letter-spacing: 3px;
+    }
+
+    .socials{
+        margin:30px auto 0 100px;
+    }
+
+    .socials a{
+        margin:auto 30px auto 0;
+    }
+
+    .socials a img{
+        width:25px;
+        height: 25px;
+    }
+
+    .right{
+        flex-direction: column;
+        width:50%;
+        height:auto;
+        position: absolute;
+        right: 0;
+    }
+
+    .me{
+        margin:100px auto 0 0px;
+        font: 15px inter-reg;
+        letter-spacing: 1px;
+        line-height: 30px;
+        max-width: 90%;
+    }
 }

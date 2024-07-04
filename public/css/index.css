@@ -7,30 +7,49 @@ body{
     margin:0;
     font-size:0;
     flex-direction: column;
-    background-color: #0f172a;
+    /* background-color: #0f172a; */
     margin-bottom: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: radial-gradient(circle at 74.2% 50.9%, #15254c 5.2%, #0f172a 75.3%);
+}
+
+.topbar{
+    margin:0;
+    display: block;
+    position: fixed;
+    width:100%;
+    padding:20px 0 20px 30px;
+    font:16px inter-reg;
+    letter-spacing: 3px;
+    color:white;
+    background-color: #0f172abf;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    opacity: 0;
 }
 
 .title{
     margin:60px auto 0 30px;
-    font: 35px ubuntu-bold;
+    font: 35px inter-bold;
     letter-spacing: 1px;
     color:white;
 }
 
 .heading, .about{
     margin:10px auto 0 30px;
-    font: 16px ubuntu-reg;
+    font: 16px inter-reg;
     letter-spacing: 1px;
     color:white;
 }
 
 .desc{
     margin:20px auto 0 30px;
-    font:14px ubuntu-reg;
+    font:14px inter-reg;
     letter-spacing: 1px;
     color:#92a1b6;
-    max-width: 80vw;
+    max-width: 300px;
     line-height: 20px;
 }
 
@@ -61,11 +80,12 @@ body{
 
 .me{
     margin:30px auto 0 30px;
-    font: 15px ubuntu-reg;
+    font: 15px inter-reg;
     max-width: 85%;
     color:#92a1b6;
     letter-spacing: 1px;
     line-height: 20px;
+    display: inline;
 }
 
 .exp{
@@ -75,14 +95,14 @@ body{
 
 .date{
     margin:0 auto 0 0;
-    font:13px ubuntu-med;
+    font:13px inter-med;
     color:#92a1b682;
     letter-spacing: 1px;
 }
 
 .pos{
     margin:10px auto 0 0;
-    font: 17px ubuntu-med;
+    font: 17px inter-med;
     color:white;
     letter-spacing: 1px;
     max-width: 90%;
@@ -91,11 +111,11 @@ body{
 
 .details{
     margin:10px auto 0 0;
-    font:13px ubuntu-reg;
+    font:13px inter-reg;
     color:#92a1b6;
     letter-spacing: 1px;
     line-height: 20px;
-    max-width: 85vw;
+    max-width: 318.75px;
 }
 
 .labels{
@@ -107,7 +127,7 @@ body{
 
 .labels p{
     margin:auto 0;
-    font:13px ubuntu-reg;
+    font:13px inter-reg;
     color:rgb(94 234 212);
     padding:5px 10px;
     background-color: rgba(94, 234, 212, 0.1);
@@ -129,7 +149,7 @@ body{
 
 .view p{
     margin:auto 0 0 0;
-    font:15px ubuntu-reg;
+    font:15px inter-reg;
     color:white;
     letter-spacing: 1px;
 }
@@ -140,4 +160,32 @@ body{
     margin:auto 0 auto 15px;
     position:relative;
     bottom: 1px;
+}
+
+.span1{
+    color:white;
+    display: inline;
+}
+
+.resume{
+    margin:30px auto 0 30px;
+    font: 20px inter-reg;
+    letter-spacing: 1.5px;
+    color:blueviolet;
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    line-height: 1em;
+    padding: 10px 30px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
 }
