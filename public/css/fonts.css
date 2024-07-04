@@ -1,19 +1,4 @@
 @font-face {
-    font-family: ubuntu-bold;
-    src: url(../fonts/Ubuntu-Bold.ttf);
-}
-
-@font-face {
-    font-family: ubuntu-med;
-    src: url(../fonts/Ubuntu-Medium.ttf);
-}
-
-@font-face {
-    font-family: ubuntu-reg;
-    src: url(../fonts/Ubuntu-Regular.ttf);
-}
-
-@font-face {
     font-family: inter-bold;
     src: url(../fonts/Inter-Bold.ttf);
 }
