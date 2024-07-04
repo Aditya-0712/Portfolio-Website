@@ -204,88 +204,88 @@ body{
     .mobile{
         display:none;
     }
-
+    
     .pc{
         display: flex;
         width:100%;
     }
-
+    
     .left{
         width:50%;
         height:100%;
         flex-direction: column;
         position: fixed;
     }
-
+    
     .pc_title{
-        margin:100px auto 0 100px;
-        font: 50px inter-bold;
+        margin:7.92vw auto 0 7.92vw;
+        font: 3.96vw inter-bold;
         color:white;
-        letter-spacing: 1px;
+        letter-spacing: 0.0792vw;
     }
-
+    
     .pc_heading{
-        margin:10px auto 0 100px;
-        font:19px inter-med;
+        margin:0.79vw auto 0 7.92vw;
+        font:1.5vw inter-med;
         color:white;
-        letter-spacing: 1px;
+        letter-spacing: 0.0792vw;
     }
-
+    
     .pc_desc{
-        margin:10px auto 0 100px;
-        font: 13px inter-reg;
-        letter-spacing: 1px;
+        margin:0.79vw auto 0 7.92vw;
+        font: 1.03vw inter-reg;
+        letter-spacing: 0.0792vw;
         color:#92a1b6;
         max-width: 60%;
-        line-height: 20px;
+        line-height: 1.58vw;
     }
-
+    
     .resume{
-        margin:30px auto 0 100px;
-        font:17px inter-reg;
-        letter-spacing: 1.5px;
-        padding:10px 30px;
+        margin:2.37vw auto 0 7.92vw;
+        font:1.35vw inter-reg;
+        letter-spacing: 0.12vw;
+        padding:0.79vw 2.37vw;
         transition: 0.2s;
     }
-
+    
     .section{
-        margin:40px auto 0 100px;
+        margin:3.16vw auto 0 7.92vw;
         flex-direction: column;
     }
-
+    
     .section div{
-        margin:0 auto 15px 0;
+        margin:0 auto 1.19vw 0;
         cursor: pointer;
     }
-
+    
     .section span{
-        margin:auto 15px auto 0;
-        width:30px;
-        height: 1px;
+        margin:auto 1.19vw auto 0;
+        width:2.37vw;
+        height: 0.0792vw;
         border-radius: 50px;
         background-color:#92a1b6;
     }
-
+    
     .section p{
         margin:auto;
-        font: 13px inter-med;
+        font: 1.03vw inter-med;
         color:#92a1b6;
-        letter-spacing: 3px;
+        letter-spacing: 0.24vw;
     }
-
+    
     .socials{
-        margin:30px auto 0 100px;
+        margin:2.37vw auto 0 7.92vw;
     }
-
+    
     .socials a{
-        margin:auto 30px auto 0;
+        margin:auto 2.37vw auto 0;
     }
-
+    
     .socials a img{
-        width:25px;
-        height: 25px;
+        width:1.98vw;
+        height: 1.98vw;
     }
-
+    
     .right{
         flex-direction: column;
         width:50%;
@@ -293,12 +293,86 @@ body{
         position: absolute;
         right: 0;
     }
-
+    
     .me{
-        margin:100px auto 0 0px;
-        font: 15px inter-reg;
-        letter-spacing: 1px;
-        line-height: 30px;
-        max-width: 90%;
+        margin:7.92vw auto 0 0;
+        font: 1.19vw inter-reg;
+        letter-spacing: 0.0792vw;
+        line-height: 2.37vw;
+        max-width: 82%;
     }
+    
+    .exp{
+        margin:7.92vw auto 0 0;
+    }
+    
+    .date{
+        font-size:1.03vw;
+        line-height: normal;
+        letter-spacing: 0.16vw;
+    }
+    
+    .pos{
+        font-size: 1.58vw;
+        letter-spacing: 0.16vw;
+        line-height: normal;
+        margin:0.79vw auto 0 0;
+    }
+    
+    .details{
+        font-size: 1.03vw;
+        letter-spacing: 0.16vw;
+        line-height: 1.98vw;
+        max-width: 85%;
+        margin:1.19vw auto 0 0;
+    }
+    
+    .labels{
+        margin:1.19vw auto 0 0;
+        max-width: 85%;
+        gap:0.79vw;
+    }
+    
+    .labels p{
+        font-size: 0.79vw;
+        padding: 0.55vw 0.79vw;
+    }
+    
+    .exp img{
+        margin:0.79vw auto 0 0;
+        width:23.75vw;
+        height: auto;
+    }
+    
+    .view{
+        margin:0.4vw auto 0 0;
+        padding: 0.55vw 1.58vw;
+    }
+    
+    .view p{
+        font-size: 1.19vw;
+        letter-spacing: 0.16vw;
+        margin:auto 0.79vw auto 0;
+    }
+    
+    .view img{
+        width: 1.19vw;
+        height: 1.19vw;
+        margin:auto 0;
+        top:0.0792vw;
+    }
+    
+    .tmp1{
+        margin:7.92vw auto 0 0;
+        font:1.98vw inter-reg;
+        color:white;
+        letter-spacing: 0.16vw;
+    }
+    
+    .tmp2{
+        margin:0.79vw auto 7.92vw 0;
+        font:1.19vw inter-reg;
+        color:#92a1b6;
+        letter-spacing: 0.16vw;
+    }    
 }
