@@ -195,6 +195,10 @@ body{
     white-space: nowrap;
 }
 
+.pc{
+    display: none;
+}
+
 
 @media screen and (min-width:800px){
     .mobile{
@@ -202,6 +206,7 @@ body{
     }
 
     .pc{
+        display: flex;
         width:100%;
     }
 
