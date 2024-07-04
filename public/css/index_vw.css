@@ -264,6 +264,7 @@ body{
         height: 0.0792vw;
         border-radius: 50px;
         background-color:#92a1b6;
+        transition: 0.2s;
     }
     
     .section p{
@@ -271,6 +272,7 @@ body{
         font: 1.03vw inter-med;
         color:#92a1b6;
         letter-spacing: 0.24vw;
+        transition: 0.2s;
     }
     
     .socials{
