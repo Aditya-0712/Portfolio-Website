@@ -96,3 +96,15 @@ function highlight(i){
 for (var i=0; i<3; i++){
     sections[i].addEventListener("click", highlight(i));
 }
+
+const view = document.getElementsByClassName("view");
+
+for (let i=0; i<view.length; i++){
+    view[i].addEventListener("mouseover", function(){
+        view[i].style.outline = "2px white solid";
+    })
+
+    view[i].addEventListener("mouseout", function(){
+        view[i].style.outline = "none";
+    })
+}
